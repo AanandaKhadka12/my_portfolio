@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { motion } from "framer-motion";
+import { navItems } from "../ProjectList";
 
 const Navbar = () => {
   const [nav, setNav] = useState(true);
@@ -11,31 +12,20 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-center items-center max-h-20 max-w-[1000px] mx-auto px-4 text-slate-500 py-[4rem]">
+    <div className="sticky z-30 flex justify-center items-center max-h-20 max-w-[1000px] mx-auto px-4 text-slate-500 py-[4rem]">
       <motion.div
         initial={{ y: -100, x: 0, opacity: 0 }}
         animate={{ y: 0, x: 0, opacity: 1 }}
         className="fixed hidden md:flex lg:w-[50%] md:w-[80%] h-[3rem] text-transparent border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] rounded-full"
       ></motion.div>
       <ul className="fixed hidden md:flex items-center font-bold justify-center">
-        <li className="p-2 px-3 mx-2 max-h-10 transition-all duration-300 hover:bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 hover:text-white hover:rounded-xl hover:bg-right-bottom">
-          <a href="#hero">Home</a>
-        </li>
-        <li className="p-2 px-3 mx-2 max-h-10 transition-all duration-300 hover:bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 hover:text-white hover:rounded-xl hover:bg-right-bottom">
-          <a href="#about">About</a>
-        </li>
-        <li className="p-2 px-3 mx-2 max-h-10 transition-all duration-300 hover:bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 hover:text-white hover:rounded-xl hover:bg-right-bottom">
-          <a href="#project">Project</a>
-        </li>
-        <li className="p-2 px-3 mx-2 max-h-10 transition-all duration-300 hover:bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 hover:text-white hover:rounded-xl hover:bg-right-bottom">
-          <a href="#skills">Skills</a>
-        </li>
-        <li className="p-2 px-3 mx-2 max-h-10 transition-all duration-300 hover:bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 hover:text-white hover:rounded-xl hover:bg-right-bottom">
-          <a href="#experience">Experience</a>
-        </li>
-        <li className="p-2 px-3 mx-2 max-h-10 transition-all duration-300 hover:bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 hover:text-white hover:rounded-xl hover:bg-right-bottom">
-          <a href="#contact">Contact</a>
-        </li>
+        {navItems.map((item, index) => {
+          return (
+            <li className="p-2 px-3 mx-2 max-h-10 transition-all duration-300 hover:bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 hover:text-white hover:rounded-xl hover:bg-right-bottom">
+              <a href={item.link}>{item.name}</a>
+            </li>
+          );
+        })}
       </ul>
       <div onClick={handleNav} className="md:hidden">
         {!nav ? (
@@ -55,24 +45,13 @@ const Navbar = () => {
           }
         >
           <ul className="uppercase p-4 from-indigo-100 from-20% via-sky-100 via-80% to-emerald-10 bg-gradient-to-r">
-            <li className="p-4 border-b border-gray-600">
-              <a href="#hero">Home</a>
-            </li>
-            <li className="p-4 border-b border-gray-600">
-              <a href="#about">About</a>
-            </li>
-            <li className="p-4 border-b border-gray-600">
-              <a href="#project">Project</a>
-            </li>
-            <li className="p-4 border-b border-gray-600">
-              <a href="#skills">Skills</a>
-            </li>
-            <li className="p-4 border-b border-gray-600">
-              <a href="#experience">Experience</a>
-            </li>
-            <li className="p-4 border-b border-gray-600">
-              <a href="#contact">Contact</a>
-            </li>
+            {navItems.map((item, index) => {
+              return (
+                <li className="p-4 border-b border-gray-600">
+                  <a href={item.link}>{item.name}</a>
+                </li>
+              );
+            })}
           </ul>
         </div>
       </div>

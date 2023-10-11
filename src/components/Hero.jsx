@@ -1,6 +1,7 @@
 import React from "react";
 import myImg from "../assets/mee.jpg";
 import { FaLinkedin, FaGithub, FaInstagramSquare } from "react-icons/fa";
+import { BrowserRouter, Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
@@ -44,20 +45,30 @@ const Hero = () => {
         </div>
       </div>
       <div className="flex  items-center justify-evenly max-w-[300px] mx-auto my-10 pb-5">
-        <FaLinkedin
-          size={30}
-          className="text-[#0072b1] hover:scale-125 duration-150"
-        />
-
-        <FaGithub
-          size={30}
-          className="text-[#333] hover:scale-125 duration-150"
-        />
-
-        <FaInstagramSquare
-          size={30}
-          className="bg-gradient-to-r from-purple-600 to-pink-400 text-gray-200 hover:scale-125 duration-150"
-        />
+        <BrowserRouter>
+          <Link
+            to="https://www.linkedin.com/in/aananda-khadka-364483152/"
+            target="_blank"
+          >
+            <FaLinkedin
+              size={30}
+              className="text-[#0072b1] hover:scale-125 duration-150"
+            />
+          </Link>
+          <Link to="https://github.com/AanandaKhadka12" target="_blank">
+            {" "}
+            <FaGithub
+              size={30}
+              className="text-[#333] hover:scale-125 duration-150"
+            />
+          </Link>
+          <Link to="https://www.instagram.com/_kaley_bhai_/" target="_blank">
+            <FaInstagramSquare
+              size={30}
+              className="bg-gradient-to-r from-purple-600 to-pink-400 text-gray-200 hover:scale-125 duration-150"
+            />
+          </Link>
+        </BrowserRouter>
       </div>
     </motion.div>
   );

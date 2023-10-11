@@ -3,6 +3,33 @@ import joke from "./assets/joke.png";
 import upahar from "./assets/upahar.png";
 import bhrikuti from "./assets/bhrikuti.png";
 
+const navItems = [
+  {
+    name: "Home",
+    link: "#hero",
+  },
+  {
+    name: "About",
+    link: "#about",
+  },
+  {
+    name: "Projects",
+    link: "#project",
+  },
+  {
+    name: "Skills",
+    link: "#skills",
+  },
+  {
+    name: "Experience",
+    link: "#experience",
+  },
+  {
+    name: "Contact",
+    link: "#contact",
+  },
+];
+
 const ProjectList = [
   {
     imgsrc: joke,
@@ -118,4 +145,4 @@ const Expe = [
   },
 ];
 
-export { ProjectList, Skill, Expe };
+export { ProjectList, Skill, Expe, navItems };
