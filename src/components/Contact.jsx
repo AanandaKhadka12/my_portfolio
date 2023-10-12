@@ -7,7 +7,7 @@ const Contact = () => {
       </p>
       <div className="grid md:grid-cols-1 max-w-[800px] mx-auto">
         <div className="flex justify-center">
-          <p className="p-2">
+          <p className="p-2 text-center">
             Feel free to contact me at{" "}
             <a
               className="underline font-bold"

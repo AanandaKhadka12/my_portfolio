@@ -21,7 +21,10 @@ const Navbar = () => {
       <ul className="fixed hidden md:flex items-center font-bold justify-center">
         {navItems.map((item, index) => {
           return (
-            <li className="p-2 px-3 mx-2 max-h-10 transition-all duration-300 hover:bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 hover:text-white hover:rounded-xl hover:bg-right-bottom">
+            <li
+              className="p-2 px-3 mx-2 max-h-10 transition-all duration-300 hover:bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 hover:text-white hover:rounded-xl hover:bg-right-bottom"
+              key={index}
+            >
               <a href={item.link}>{item.name}</a>
             </li>
           );
@@ -47,7 +50,7 @@ const Navbar = () => {
           <ul className="uppercase p-4 from-indigo-100 from-20% via-sky-100 via-80% to-emerald-10 bg-gradient-to-r">
             {navItems.map((item, index) => {
               return (
-                <li className="p-4 border-b border-gray-600">
+                <li className="p-4 border-b border-gray-600" key={index}>
                   <a href={item.link}>{item.name}</a>
                 </li>
               );
