@@ -8,7 +8,7 @@ const Project = () => {
   });
   return (
     <div className="w-full py-10 text-slate-600" id="project">
-      <p className="flex justify-center mx-auto border-slate-500 border-b-2 w-[11rem] mb-10 font-pacifico font-extrabold text-3xl">
+      <p className="flex justify-center mx-auto border-slate-500 border-b-2 w-[11rem] mb-10 font-pacifico font-extrabold md:text-3xl sm:2xl xl">
         My Projects
       </p>
       {ProjectList.map((pro, index) => {
