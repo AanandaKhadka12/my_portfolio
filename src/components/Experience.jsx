@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Experience = () => {
   return (
     <div className="w-full py-10 text-slate-600" id="experience">
-      <p className="flex justify-center mx-auto border-slate-500 border-b-2 w-[14rem] mb-10 font-pacifico font-extrabold md:text-3xl sm:2xl xl">
+      <p className="flex justify-center mx-auto border-slate-500 border-b-2 w-[14rem] mb-10 font-pacifico font-extrabold md:text-3xl sm:text-2xl  text-2xl">
         My Experience
       </p>
       <div className="grid grid-cols-1 max-w-[900px] mx-auto p-5">

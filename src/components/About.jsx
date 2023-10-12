@@ -15,7 +15,7 @@ const About = () => {
       className="w-full py-10 text-slate-600 scroll-smooth mt-[5rem]"
       id="about"
     >
-      <p className="flex justify-center mx-auto border-slate-500 border-b-2 w-[9rem] mb-10 font-pacifico font-extrabold md:text-3xl sm:2xl xl">
+      <p className="flex justify-center mx-auto border-slate-500 border-b-2 w-[9rem] mb-10 font-pacifico font-extrabold md:text-3xl sm:text-2xl  text-2xl">
         About Me
       </p>
       <div className="max-w-[900px] grid md:grid-cols-2 mx-auto p-10">

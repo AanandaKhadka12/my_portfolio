@@ -11,7 +11,7 @@ const Skills = () => {
       className="w-full py-10 text-slate-600"
       id="skills"
     >
-      <p className="flex justify-center mx-auto border-slate-500 border-b-2 w-[9rem] mb-10 font-pacifico font-extrabold md:text-3xl sm:2xl xl">
+      <p className="flex justify-center mx-auto border-slate-500 border-b-2 w-[9rem] mb-10 font-pacifico font-extrabold md:text-3xl sm:text-2xl  text-2xl">
         My Skills
       </p>
       <div className="grid md:grid-cols-1 max-w-[800px] mx-auto p-5">
