@@ -20,7 +20,11 @@ const Hero = () => {
     >
       <div className="flex justify-center items-center text-center flex-col max-w-[1000px] mx-auto my-5 ">
         <motion.img
-          whileInView={{ rotate: 360, transition: { duration: 0.6 } }}
+          initial={{ opacity: 0 }}
+          whileInView={{
+            opacity: 1,
+            transition: { duration: 0.7 },
+          }}
           src={myImg}
           alt="myPic"
           className="bg-transparent rounded-full h-[10rem] bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-1"
@@ -29,13 +33,7 @@ const Hero = () => {
           <motion.p className="md:text-4xl sm:text-3xl text-xl font-bold py-4 mt-5">
             Hi, I'm
           </motion.p>
-          {/* <Typed
-            className="md:text-4xl sm:text-3xl text-xl font-bold md:pl-4 pl-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 mt-5"
-            strings={["Aananda Khadka", "Full-Stack Developer"]}
-            typeSpeed={120}
-            backSpeed={140}
-            loop
-          /> */}
+
           <span className="md:text-4xl sm:text-3xl text-xl font-bold md:pl-4 pl-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 mt-5">
             {text}
           </span>
