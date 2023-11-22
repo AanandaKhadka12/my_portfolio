@@ -4,13 +4,7 @@ import { motion } from "framer-motion";
 
 const Skills = () => {
   return (
-    <div
-      initial={{ opacity: 0, y: 100 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 0.175 }}
-      className="w-full py-10 text-slate-600"
-      id="skills"
-    >
+    <div className="w-full py-10 text-slate-600" id="skills">
       <p className="flex justify-center mx-auto border-slate-500 border-b-2 w-[9rem] mb-10 font-pacifico font-extrabold md:text-3xl sm:text-2xl  text-2xl">
         My Skills
       </p>

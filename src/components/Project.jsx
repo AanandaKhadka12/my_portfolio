@@ -3,9 +3,9 @@ import { ProjectList } from "../ProjectList";
 import { motion, useScroll } from "framer-motion";
 
 const Project = () => {
-  const { scrollYProgress } = useScroll({
-    offset: ["0 1", "0.5 1"],
-  });
+  // const { scrollYProgress } = useScroll({
+  //   offset: ["0 1", "0.5 1"],
+  // });
   return (
     <div className="w-full py-10 text-slate-600" id="project">
       <p className="flex justify-center mx-auto border-slate-500 border-b-2 w-[11rem] mb-10 font-pacifico font-extrabold md:text-3xl sm:text-2xl  text-2xl">
@@ -18,9 +18,16 @@ const Project = () => {
             key={index}
           >
             <motion.div
-              style={{
-                scale: scrollYProgress,
-                opacity: scrollYProgress,
+              // style={{
+              //   scale: scrollYProgress,
+              //   opacity: scrollYProgress,
+              // }}
+              initial={{ opacity: 0, translateX: -50, translateY: -50 }}
+              whileInView={{
+                opacity: 1,
+                translateX: 0,
+                translateY: 0,
+                transition: { duration: 0.3, delay: index * 0.2 },
               }}
               className="flex md:flex-row sm:flex-row flex-col justify-center mx-auto shadow-xl rounded-lg p-3 hover:bg-white transition"
             >
