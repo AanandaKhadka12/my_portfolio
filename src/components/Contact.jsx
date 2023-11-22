@@ -62,7 +62,7 @@ const Contact = () => {
                   rows="4"
                   value={feed}
                   placeholder="Share your thoughts here...."
-                  className="mt-5 rounded-md md:p-3 sm:p-3 p-2 outline-none shadow-lg"
+                  className="mt-5 rounded-md md:p-3 sm:p-3 p-2 w-[20rem] outline-none shadow-lg"
                   onChange={feedControl}
                   required
                 ></textarea>
