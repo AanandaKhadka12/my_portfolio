@@ -1,7 +1,7 @@
-import bike from "./assets/bike.png";
 import joke from "./assets/joke.png";
 import upahar from "./assets/upahar.png";
 import bhrikuti from "./assets/bhrikuti.png";
+import hangman from "./assets/hangman.png";
 
 const navItems = [
   {
@@ -37,6 +37,11 @@ const ProjectList = [
     languages: ["NEXT.JS", "TAILWINDCSS", "SUPABASE", "SQL"],
   },
   {
+    imgsrc: hangman,
+    desc: "Developed an online game that allows users to assess and enhance their vocabulary skills, incorporating elements of gamification to make the experience more engaging and enjoyable.",
+    languages: ["REACT", "NODE.JS", "BOOTSTRAP"],
+  },
+  {
     imgsrc: bhrikuti,
     desc: "Designed a website where the user can buy the authentic Nepalese Handicrafts and cultural items.",
     languages: ["REACT", "NODE.JS", "EXPRESS.JS", "BOOTSTRAP", "MONGODB"],
@@ -45,11 +50,6 @@ const ProjectList = [
     imgsrc: upahar,
     desc: "Developed a website where the customers can select the gifts they want to send to their loved ones in special days.",
     languages: ["REACT", "BOOTSTRAP", "JAVASCRIPT", "JSON"],
-  },
-  {
-    imgsrc: bike,
-    desc: "Developed an interactive website where customers can select a bike from a plenty of options for a rent. And they also have an hourly charge or per day charge options.",
-    languages: ["HTML", "CSS", "JAVASCRIPT", "PHP", "SQL"],
   },
 ];
 
@@ -126,22 +126,15 @@ const Expe = [
     flex: "flex-row",
     justify: "justify-end",
   },
-  {
-    date: "2020-2021",
-    title: "Front-End Developer, ABS Soft Company Pvt. Ltd.",
-    location: "Butwal, Nepal",
-    desc: " Designed responsive websites with compatibility across different browsers through the use of HTML, CSS, and JavaScript. Leveraged React to establish robust codebases. Engaged in agile development practices, including daily stand-up meetings, sprint planning, and reviews. Performed code testing and resolved bugs, enhancing user interaction. Worked closely with both design and backend teams to ensure smooth integration of elements.",
-    flex: "flex-row-reverse",
-    justify: "justify-start",
-  },
+
   {
     date: "2022-2024",
     title:
       "Computer Software and Database Development, Lambton College in Toronto",
     location: "Toronto, Canada",
     desc: "Participating in strategic planning, precise programming, and efficient website hosting. Managing the end-to-end creation and sophisticated design of a custom database management system for an e-commerce platform. Performing an in-depth examination of Full Stack essentials, covering both frontend and backend aspects. Fostering not just technical prowess but also refining effective communication abilities and mastering project management expertise.",
-    flex: "flex-row",
-    justify: "justify-end",
+    flex: "flex-row-reverse",
+    justify: "justify-start",
   },
 ];
 
