@@ -1,5 +1,5 @@
 import joke from "./assets/joke.png";
-import upahar from "./assets/upahar.png";
+import sql from "./assets/sql.png";
 import bhrikuti from "./assets/bhrikuti.png";
 import hangman from "./assets/hangman.png";
 
@@ -34,22 +34,22 @@ const ProjectList = [
   {
     imgsrc: joke,
     desc: "Developed a website where the user can share the jokes with their friends and also can follow other users and like their posts.",
-    languages: ["NEXT.JS", "TAILWINDCSS", "SUPABASE", "SQL"],
+    languages: ["REACT.JS", "TAILWINDCSS", "SUPABASE", "SQL"],
   },
   {
     imgsrc: hangman,
     desc: "Developed an online game that allows users to assess and enhance their vocabulary skills, incorporating elements of gamification to make the experience more engaging and enjoyable.",
-    languages: ["REACT", "NODE.JS", "BOOTSTRAP"],
+    languages: ["REACT.JS", "NODE.JS", "BOOTSTRAP"],
+  },
+  {
+    imgsrc: sql,
+    desc: "Developed a web application to provide an interactive and educational tool for Learning SQL.",
+    languages: ["REACT.JS", "NODE.JS", "TAILWINDCSS"],
   },
   {
     imgsrc: bhrikuti,
     desc: "Designed a website where the user can buy the authentic Nepalese Handicrafts and cultural items.",
-    languages: ["REACT", "NODE.JS", "EXPRESS.JS", "BOOTSTRAP", "MONGODB"],
-  },
-  {
-    imgsrc: upahar,
-    desc: "Developed a website where the customers can select the gifts they want to send to their loved ones in special days.",
-    languages: ["REACT", "BOOTSTRAP", "JAVASCRIPT", "JSON"],
+    languages: ["REACT.JS", "NODE.JS", "EXPRESS.JS", "BOOTSTRAP", "MONGODB"],
   },
 ];
 
