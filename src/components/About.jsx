@@ -26,18 +26,17 @@ const About = () => {
         />
 
         <p className="sm:py-10 sm:mx-5 md:py-0 py-5 md:text-lg sm:text-lg text-md text-justify">
-          A computer science enthusiast with 1+ years of experience designing
-          websites for various business. My interest in computers peaked
-          throughout my time in school. My interest in computer science led me
-          to study sophisticated web development and fundamental programming. I
-          pursued my interest by receiving a bachelor's degree in computer
-          application. My strong foundation in computer programming and database
-          development comes from the extensive curriculum of my Bachelor of
-          Computer Application. After my bachelor's degree, I worked as a
-          front-end developer in ABS SOFT, where I got a perfect platform to
-          test my skillsets. While working there, I developed an interest in
-          full-stack programming, and now I am attending Lambton College to
-          study computer software and database development.
+          Hello, I am a Full-Stack Developer . My passion for computers reached
+          its zenith during my school years. This profound interest in computer
+          science drove me to delve into advanced web development and the core
+          principles of programming. To further nurture my enthusiasm, I pursued
+          a bachelor's degree in computer application. The comprehensive
+          curriculum of my Bachelor of Computer Application laid the strong
+          foundation for my skills in computer programming and database
+          development. Following the completion of my bachelor's degree, I
+          discovered a new fascination in full-stack programming. Consequently,
+          I enrolled in Lambton College to embark on a journey into computer
+          software and database development.
         </p>
       </div>
     </motion.div>
