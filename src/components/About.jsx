@@ -1,5 +1,5 @@
 import React from "react";
-import mehhh from "../assets/AanandaKhadka.jpeg";
+import mehhh from "../assets/meh2.jpg";
 import { motion } from "framer-motion";
 
 const About = () => {

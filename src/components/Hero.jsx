@@ -1,5 +1,5 @@
 import React from "react";
-import myImg from "../assets/mee.jpg";
+import myImg from "../assets/meh1.jpg";
 import { FaLinkedin, FaGithub, FaInstagramSquare } from "react-icons/fa";
 import { BrowserRouter, Link } from "react-router-dom";
 import { motion } from "framer-motion";
