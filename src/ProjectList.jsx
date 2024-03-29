@@ -48,7 +48,7 @@ const ProjectList = [
   },
   {
     imgsrc: bhrikuti,
-    desc: "Designed a website where the user can buy the authentic Nepalese Handicrafts and cultural items.",
+    desc: "Designed a website where the user can buy the authentic Nepali Handicrafts and cultural items.",
     languages: ["REACT.JS", "NODE.JS", "EXPRESS.JS", "BOOTSTRAP", "MONGODB"],
   },
 ];
