@@ -1,6 +1,6 @@
 import React from "react";
 import { ProjectList } from "../ProjectList";
-import { motion, useScroll } from "framer-motion";
+import { motion } from "framer-motion";
 
 const Project = () => {
   // const { scrollYProgress } = useScroll({
