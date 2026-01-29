@@ -123,6 +123,15 @@ const Expe = [
       "Bachelor of Computer Application, Kalinga Institue of Industrial Technology",
     location: "Odisha, India",
     desc: "Developed a strong fundamental understanding of multiple programming languages, such as C, C++, Java, and Visual Basic. Additionally, gained a deep comprehension of web development tools, including HTML, CSS, Bootstrap, and JavaScript. Moreover, achieved expertise in complex principles related to data structures, algorithms, and the craft of building databases.",
+    flex: "flex-row-reverse",
+    justify: "justify-start",
+  },
+  {
+    date: "2020-2021",
+    title:
+      "Front-End Developer, ABS Soft Pvt Ltd.",
+    location: "Butwal, Nepal",
+    desc:  "Worked as a Front-End Developer, where I was responsible for creating visually appealing and user-friendly web interfaces. Collaborated closely with designers and back-end developers to implement responsive designs using HTML, CSS, and JavaScript. Ensured cross-browser compatibility and optimized website performance to enhance user experience. Participated in code reviews and contributed to improving development processes within the team.",
     flex: "flex-row",
     justify: "justify-end",
   },

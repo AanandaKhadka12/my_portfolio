@@ -22,21 +22,15 @@ const About = () => {
         <img
           src={mehhh}
           alt="meeehhhhh"
-          className="rounded-md md:h-[500px] sm:h-[full] flex mx-auto"
+          className="rounded-md md:h-[600px] sm:h-[full] flex mx-auto"
         />
 
         <p className="sm:py-10 sm:mx-5 md:py-0 py-5 md:text-lg sm:text-lg text-md text-justify">
-          Hello, I am a Full-Stack Developer . My passion for computers reached
-          its zenith during my school years. This profound interest in computer
-          science drove me to delve into advanced web development and the core
-          principles of programming. To further nurture my enthusiasm, I pursued
-          a bachelor's degree in computer application. The comprehensive
-          curriculum of my Bachelor of Computer Application laid the strong
-          foundation for my skills in computer programming and database
-          development. Following the completion of my bachelor's degree, I
-          discovered a new fascination in full-stack programming. Consequently,
-          I enrolled in Lambton College to embark on a journey into computer
-          software and database development.
+          Full-Stack Developer passionate about creating scalable, user-focused web applications, with a solid background in computer science. My early passion for technology led to practical expertise in front-end and back-end development.
+
+          I hold a postgraduate degree in computer software and database development in addition to a bachelor's degree in computer applications. I started out as a front-end developer, working with cross-functional teams to create high-performing, responsive interfaces. I eventually moved into full-stack development and developed my knowledge of database administration, APIs, and backend technologies.
+
+          I’m a continuous learner who enjoys solving complex problems, improving system efficiency, and contributing to end-to-end solutions in agile environments. Open to opportunities that value clean code, innovation, and impactful development.
         </p>
       </div>
     </motion.div>
