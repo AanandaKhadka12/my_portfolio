@@ -21,7 +21,7 @@ const Contact = () => {
     setFullName("");
     setEmail("");
     setFeed("");
-    alert("Thank you! Your response has been recorded!");
+    alert("Thank you, Your response has been recorded!");
   };
 
   return (
