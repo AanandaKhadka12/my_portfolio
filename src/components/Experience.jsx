@@ -45,7 +45,7 @@ const Experience = () => {
                     <h4 className="mb-2 font-bold text-gray-800">
                       {item.location}
                     </h4>
-                    <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100 text-justify">
+                    <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100 text-left [word-spacing:normal] tracking-normal break-words">
                       {item.desc}
                     </p>
                   </div>

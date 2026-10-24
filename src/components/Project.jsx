@@ -38,7 +38,7 @@ const Project = () => {
                 transition  hover:translate-y-3 hover:rotate-2"
               />
 
-              <p className="md:text-md sm:text-base md:mx-3 mx-2  text-justify">
+              <p className="md:text-md sm:text-base md:mx-3 mx-2  text-left [word-spacing:normal] tracking-normal break-words">
                 {pro.desc}
                 <div className="my-3 md:my-5 flex flex-wrap justify-between">
                   {pro.languages.map((item, index) => (

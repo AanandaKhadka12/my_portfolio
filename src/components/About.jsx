@@ -25,7 +25,7 @@ const About = () => {
           className="rounded-md md:h-[600px] sm:h-[full] flex mx-auto"
         />
 
-        <p className="sm:py-10 sm:mx-5 md:py-0 py-5 md:text-lg sm:text-lg text-md text-justify">
+        <p className="sm:py-10 sm:mx-5 md:py-0 py-5 md:text-lg sm:text-lg text-md text-left [word-spacing:normal] tracking-normal break-words">
           Full-Stack Developer passionate about creating scalable, user-focused web applications, with a solid background in computer science. My early passion for technology led to practical expertise in front-end and back-end development.
 
           I hold a postgraduate degree in computer software and database development in addition to a bachelor's degree in computer applications. I started out as a front-end developer, working with cross-functional teams to create high-performing, responsive interfaces. I eventually moved into full-stack development and developed my knowledge of database administration, APIs, and backend technologies.

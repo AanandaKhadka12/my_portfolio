@@ -53,13 +53,7 @@ const Hero = () => {
               className="text-[#0072b1] hover:scale-125 duration-150"
             />
           </Link>
-          <Link to="https://github.com/AanandaKhadka12" target="_blank">
-            {" "}
-            <FaGithub
-              size={30}
-              className="text-[#333] hover:scale-125 duration-150"
-            />
-          </Link>
+          
           <Link to="https://www.instagram.com/_kaley_bhai_/" target="_blank">
             <FaInstagramSquare
               size={30}
